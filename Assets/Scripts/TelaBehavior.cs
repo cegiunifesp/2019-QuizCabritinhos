@@ -19,8 +19,9 @@ public class TelaBehavior : MonoBehaviour {
 
     // Use this for initialization
     void Start () {
-        
-        transform.position = new Vector2(960, 540);
+
+        //GetComponent<RectTransform>().sizeDelta = new Vector2(Screen.width, Screen.height);
+        transform.position = new Vector2(Screen.width / 2, Screen.height / 2);
         transform.SetSiblingIndex(index: 4-index);
 
         anim = GetComponent<Animator>();
@@ -31,14 +32,14 @@ public class TelaBehavior : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		
-	}
+    }
 
 
 
     public void PlayFadeIn()
     {
         anim.SetBool("Show", true);
+        transform.SetAsLastSibling();
     }
 
     public void PlayFadeOut()
@@ -48,21 +49,21 @@ public class TelaBehavior : MonoBehaviour {
 
     public void StartFadeIn()
     {
-
+        StartFI.Invoke();
     }
 
     public void StartFadeOut()
     {
-
+        StartFO.Invoke();
     }
 
     public void EndFadeIn()
     {
-
+        EndFI.Invoke();
     }
 
     public void EndFadeOut()
     {
-
+        EndFO.Invoke();
     }
 }

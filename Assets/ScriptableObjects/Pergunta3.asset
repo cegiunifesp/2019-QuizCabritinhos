@@ -11,9 +11,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 520b8917fd6681940a859a6202a0275f, type: 3}
   m_Name: Pergunta3
   m_EditorClassIdentifier: 
-  question: Quem morre?
-  rightAnsw: Eventualmente todo mundo
+  question: "ONDE OS TR\xCAS CABRITINHOS QUERIAM IR PARA COMER CAPIM?"
+  RecursoImagem: {fileID: 0}
+  RecursoVideo: {fileID: 0}
+  rightAnsw: NO PASTO
   wrongAnsw:
-  - Viuva negra
-  - Nebula
-  - "Capit\xE3 Marvel"
+  - NA PONTE DA BRUXA
+  - "N\xC3O QUERIAM COMER CAPIM"
+  - NA COLINA

@@ -11,9 +11,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 520b8917fd6681940a859a6202a0275f, type: 3}
   m_Name: Pergunta2
   m_EditorClassIdentifier: 
-  question: Que horas sao
-  rightAnsw: Qualquer hora
+  question: "QUAIS S\xC3O OS PERSONAGENS DO CONTO?"
+  RecursoImagem: {fileID: 0}
+  RecursoVideo: {fileID: 0}
+  rightAnsw: "OS TR\xCAS CABRITINHOS E A BRUXA"
   wrongAnsw:
-  - 1:00
-  - 2:00
-  - 12:00
+  - OS SETE CABRITINHOS E A BRUXA
+  - "OS TR\xCAS PORQUINHOS E O LOBO MAU"
+  - "CACHINHOS DOURADOS E OS TR\xCAS URSOS"

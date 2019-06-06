@@ -11,9 +11,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 520b8917fd6681940a859a6202a0275f, type: 3}
   m_Name: Pergunta1
   m_EditorClassIdentifier: 
-  question: Qual o meu nome
-  rightAnsw: Renan
+  question: "QUAL \xC9 O T\xCDTULO DO CONTO?"
+  RecursoImagem: {fileID: 0}
+  RecursoVideo: {fileID: 0}
+  rightAnsw: "OS TR\xCAS CABRITINHOS"
   wrongAnsw:
-  - "Jos\xE9"
-  - Maria
-  - Alencar
+  - "OS TR\xCAS PORQUINHOS"
+  - OS SETE CABRITINHOS
+  - OS SETE PORQUINHOS

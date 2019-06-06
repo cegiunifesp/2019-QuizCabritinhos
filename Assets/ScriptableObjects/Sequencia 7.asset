@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5648de86a2dcc114eafdd13283adc891, type: 3}
+  m_Name: Sequencia 7
+  m_EditorClassIdentifier: 
+  question: "RELACIONE OS EPIS\xD3DIOS \xC0 SEQU\xCANCIA CORRETA DOS FATOS:"
+  topicos:
+  - "ERA UMA VEZ TR\xCAS CABRITINHOS TRAVESSOS QUE COSTUMAVAM PASTAR NUMA COLINA ONDE
+    HAVIA UM CAPIM BEM VERDINHO"
+  - "UM DIA, QUANDO O SOL J\xC1 SE IA ESCONDENDO, L\xC1 FORAM OS CABRITINHOS TRAVESSOS
+    PASTAR. NA FRENTE, VINHA O CABRITINHO MAIS NOVO ATRAVESSANDO A PONTE: TRIP, TRAP,
+    TRIP, TRAP..."
+  - "- SOU EU, O SEGUNDO CABRITINHO. VOU PASTAR L\xC1 NA COLINA, PARA ENGORDAR UM
+    POUCO"
+  - "-VENHA, QUE SOU BEM VALENTE! DE BRUXAS N\xC3O TEMO O BERRO. PRA ISSO, TENHO BONS
+    DENTES, E CHIFRES QUE S\xC3O DE FERRO!"
