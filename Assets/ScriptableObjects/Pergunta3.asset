@@ -4,7 +4,8 @@
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -13,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   question: "ONDE OS TR\xCAS CABRITINHOS QUERIAM IR PARA COMER CAPIM?"
   RecursoImagem: {fileID: 0}
-  RecursoVideo: {fileID: 0}
+  RecursoVideo: {fileID: 32900000, guid: cbd0d91dc477293469efea0fad5bded5, type: 3}
   rightAnsw: NO PASTO
   wrongAnsw:
   - NA PONTE DA BRUXA

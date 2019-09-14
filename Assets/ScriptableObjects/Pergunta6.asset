@@ -4,7 +4,8 @@
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -14,7 +15,7 @@ MonoBehaviour:
   question: "\"- QUEM EST\xC1 CAMINHANDO SOBRE A MINHA PONTE?\" DE QUEM \xC9 ESTA
     FALA?"
   RecursoImagem: {fileID: 0}
-  RecursoVideo: {fileID: 0}
+  RecursoVideo: {fileID: 32900000, guid: f6909f06d4e6ac34d9d0452523a08c20, type: 3}
   rightAnsw: BRUXA
   wrongAnsw:
   - CABRITINHO MENOR

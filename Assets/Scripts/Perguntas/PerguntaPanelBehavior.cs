@@ -2,21 +2,25 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.Video;
 
-public class PerguntaPanelBehavior : MonoBehaviour, IQuizPanel {
+public class PerguntaPanelBehavior : MonoBehaviour, IQuizPanel
+{
 
     private PerguntaScript pergunta;
     public Text perguntaText;
     public Text[] respText;
-    public GameObject quadro;
+    public VideoPlayer quadro;
+    public VIdeoScreen videoScript;
     public GameObject proxButton;
 
     private QuizManagerBehavior pai;
 
     // Update is called once per frame
-    void Update () {
-		
-	}
+    void Update()
+    {
+
+    }
 
     public void SetPergunta(PerguntaScript p)
     {
@@ -26,11 +30,13 @@ public class PerguntaPanelBehavior : MonoBehaviour, IQuizPanel {
 
         respText[(int)Random.Range(0, 3)].text = p.rightAnsw;
 
-        foreach(string s in p.wrongAnsw)
+        quadro.clip = p.RecursoVideo;
+
+        foreach (string s in p.wrongAnsw)
         {
             int id = (int)Random.Range(0, 3);
 
-            while(respText[id].text != "New Text")
+            while (respText[id].text != "New Text")
             {
                 id = (id + 1) % 4;
             }
@@ -38,7 +44,7 @@ public class PerguntaPanelBehavior : MonoBehaviour, IQuizPanel {
             respText[id].text = s;
         }
 
-        foreach(Text t in respText)
+        foreach (Text t in respText)
         {
             if (t.text.Length > 100)
                 t.fontSize = 31;
@@ -48,7 +54,7 @@ public class PerguntaPanelBehavior : MonoBehaviour, IQuizPanel {
 
         Object recurso = p.getRecurso();
 
-        if(p != null)
+        if (p != null)
         {
             // Exibe video ou imagem
         }
@@ -63,7 +69,7 @@ public class PerguntaPanelBehavior : MonoBehaviour, IQuizPanel {
 
     public void Click(Text t)
     {
-        if(t.text == pergunta.rightAnsw)
+        if (t.text == pergunta.rightAnsw)
         {
             //Certo
             t.transform.parent.gameObject.GetComponent<Animator>().SetTrigger("Certo");
@@ -86,6 +92,7 @@ public class PerguntaPanelBehavior : MonoBehaviour, IQuizPanel {
     public void FadeIn()
     {
         gameObject.SetActive(true);
+        videoScript.VideoPlay();
     }
 
     public void ClickNext()
