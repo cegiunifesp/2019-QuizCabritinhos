@@ -87,12 +87,14 @@ public class PerguntaPanelBehavior : MonoBehaviour, IQuizPanel
     public void FadeOut()
     {
         gameObject.SetActive(false);
+        videoScript.VideoPause();
     }
 
     public void FadeIn()
     {
         gameObject.SetActive(true);
         videoScript.VideoPlay();
+        print(Time.deltaTime);
     }
 
     public void ClickNext()
