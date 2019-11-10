@@ -7,18 +7,26 @@ public class VIdeoScreen : MonoBehaviour
 {
     public UnityEngine.Video.VideoPlayer videoPlayer;
     public RawImage rawImage;
+    public Button button;
 
+
+    private void Start()
+    {
+        videoPlayer.loopPointReached += EndReached;
+    }
 
     // Start is called before the first frame update
     public void VideoPlay()
     {
         print("Corrotine Appear");
         StartCoroutine(PlayVideo());
+        button.gameObject.SetActive(false);
     }
 
     public void VideoPause()
     {
         videoPlayer.Stop();
+        button.gameObject.SetActive(true);
     }
 
     IEnumerator PlayVideo()
@@ -35,4 +43,11 @@ public class VIdeoScreen : MonoBehaviour
         videoPlayer.Play();
         print("Corrotine Done");
     }
+
+    void EndReached(UnityEngine.Video.VideoPlayer vp)
+    {
+        print("Acabou");
+        VideoPause();
+    }
+
 }

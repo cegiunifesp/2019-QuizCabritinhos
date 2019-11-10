@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Pergunta4
   m_EditorClassIdentifier: 
   question: "QUAL PROBLEMA OS TR\xCAS CABRITINHOS ENFRENTARAM?"
-  RecursoImagem: {fileID: 0}
+  RecursoImagem: {fileID: 21300000, guid: ca08dbc493d92704ea53f5562553c9c0, type: 3}
   RecursoVideo: {fileID: 32900000, guid: 3398aeec68d4a084cb3f264cf2b631b0, type: 3}
   rightAnsw: ELES ENCONTRARAM A BRUXA QUE MORAVA EMBAIXO DA PONTE
   wrongAnsw:

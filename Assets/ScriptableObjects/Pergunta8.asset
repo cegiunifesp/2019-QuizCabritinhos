@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Pergunta8
   m_EditorClassIdentifier: 
   question: "QUAL DAS OP\xC7\xD5ES SE REFERE A IMAGEM?"
-  RecursoImagem: {fileID: 0}
+  RecursoImagem: {fileID: 21300000, guid: 2a5a538ff3f1c96428f742da8bdd9c82, type: 3}
   RecursoVideo: {fileID: 32900000, guid: 64ac83cf2b165f1499d46186ee19371f, type: 3}
   rightAnsw: "A BRUXA TENTOU AGARRAR O CABRITO, MAS ELE N\xC3O PERDEU TEMPO: AVAN\xC7OU
     SOBRE ELA, EMPURROU-A COM OS CHIFRES E ATIROU-A DENTRO DO RIO QUE PASSAVA EMBAIXO

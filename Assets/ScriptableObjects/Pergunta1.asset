@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Pergunta1
   m_EditorClassIdentifier: 
   question: "QUAL \xC9 O T\xCDTULO DO CONTO?"
-  RecursoImagem: {fileID: 0}
+  RecursoImagem: {fileID: 21300000, guid: ca08dbc493d92704ea53f5562553c9c0, type: 3}
   RecursoVideo: {fileID: 32900000, guid: b9c80d7627602314d9b2654c3b04bdef, type: 3}
   rightAnsw: "OS TR\xCAS CABRITINHOS"
   wrongAnsw:

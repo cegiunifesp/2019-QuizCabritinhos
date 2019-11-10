@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   question: "\"- QUEM EST\xC1 CAMINHANDO SOBRE A MINHA PONTE?\" DE QUEM \xC9 ESTA
     FALA?"
-  RecursoImagem: {fileID: 0}
+  RecursoImagem: {fileID: 21300000, guid: ca08dbc493d92704ea53f5562553c9c0, type: 3}
   RecursoVideo: {fileID: 32900000, guid: f6909f06d4e6ac34d9d0452523a08c20, type: 3}
   rightAnsw: BRUXA
   wrongAnsw:

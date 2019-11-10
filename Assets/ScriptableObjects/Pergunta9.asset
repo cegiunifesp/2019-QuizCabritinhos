@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   question: "DE ACORDO COM A HIST\xD3RIA, QUAIS S\xC3O AS CARACTER\xCDSTICAS DO CABRITO
     MAIOR?"
-  RecursoImagem: {fileID: 0}
+  RecursoImagem: {fileID: 21300000, guid: ca08dbc493d92704ea53f5562553c9c0, type: 3}
   RecursoVideo: {fileID: 32900000, guid: 563a8becb1165724f804f834f9948341, type: 3}
   rightAnsw: "GRANDE, VALENTE, COM CHIFRES QUE S\xC3O DE FERRO"
   wrongAnsw:

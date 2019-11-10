@@ -13,6 +13,7 @@ public class PerguntaPanelBehavior : MonoBehaviour, IQuizPanel
     public VideoPlayer quadro;
     public VIdeoScreen videoScript;
     public GameObject proxButton;
+    public Image backImage;
 
     private QuizManagerBehavior pai;
 
@@ -31,6 +32,8 @@ public class PerguntaPanelBehavior : MonoBehaviour, IQuizPanel
         respText[(int)Random.Range(0, 3)].text = p.rightAnsw;
 
         quadro.clip = p.RecursoVideo;
+
+        backImage.sprite = p.RecursoImagem;
 
         foreach (string s in p.wrongAnsw)
         {
