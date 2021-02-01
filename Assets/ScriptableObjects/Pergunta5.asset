@@ -4,7 +4,8 @@
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -12,8 +13,8 @@ MonoBehaviour:
   m_Name: Pergunta5
   m_EditorClassIdentifier: 
   question: QUEM CONSEGUIU DERROTAR A BRUXA?
-  RecursoImagem: {fileID: 0}
-  RecursoVideo: {fileID: 0}
+  RecursoImagem: {fileID: 21300000, guid: ca08dbc493d92704ea53f5562553c9c0, type: 3}
+  RecursoVideo: {fileID: 32900000, guid: 0b16a685c209bd44bba08ea3945719d0, type: 3}
   rightAnsw: O CABRITINHO MAIS VELHO EMPURROU A BRUXA NO RIO
   wrongAnsw:
   - "O CABRITINHO M\xC9DIO ENGANOU A BRUXA"

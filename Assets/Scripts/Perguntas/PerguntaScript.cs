@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Video;
 
 [CreateAssetMenu(fileName = "Nova Pergunta", menuName = "Pergunta Data", order = 1)]
 public class PerguntaScript : QuizPiece
@@ -8,7 +9,7 @@ public class PerguntaScript : QuizPiece
     [Header("Pergunta")]
     public string question;
     public Sprite RecursoImagem;
-    public Object RecursoVideo;
+    public VideoClip RecursoVideo;
 
     [Header("Respostas")]
     public string rightAnsw;
