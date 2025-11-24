@@ -2,6 +2,8 @@
 Se divirta com um quiz de uma fábula conhecida e teste seus conhecimentos em interpretação de texto (com tradução em libras).
 Jogo feito para uma escola, baseado em um texto de uma história narrada por linguagem de sinais.
 
+<img width="1123" height="630" alt="image" src="https://github.com/user-attachments/assets/f7347ad1-dfbf-43f4-a656-e560bae58185" />
+
 Página de um dos desenvolvedores
 https://renanruan.github.io/projects.html#project3
 
